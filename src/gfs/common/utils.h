@@ -11,8 +11,21 @@ namespace gfs
     enum StatusCode
     {
         OK = 0,
+        CANCELLED,
+        INVALID_ARGUMENT,
+        DEADLINE_EXCEEDED,
+        NOT_FOUND,
         ALREADY_EXISTS,
-        InvalidArgumentError
+        PERMISSION_DENIED,
+        UNAUTHENTICATED,
+        RESOURCE_EXHAUSTED,
+        FAILED_PRECONDITION,
+        ABORTED,
+        OUT_OF_RANGE,
+        UNIMPLEMENTED,
+        INTERNAL,
+        UNAVAILABLE,
+        DATA_LOSS
     };
 
     namespace common

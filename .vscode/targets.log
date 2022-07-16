@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul  7 09:20:39 2022
+# Make data base, printed on Sun Jul 17 00:07:03 2022
 
 # Variables
 
@@ -18,8 +18,6 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 .SHELLFLAGS := -c
 # environment
 VSCODE_AGENT_FOLDER = /home/lan/.vscode-server
-# environment
-VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -33,35 +31,31 @@ CURDIR := /home/lan/data/projects/miniGFS
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"/home/lan/.vscode-server/data/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/tcf.json","_cacheRoot":"/home/lan/.vscode-server/data/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lan/.vscode-server/data/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"/home/lan/.vscode-server/data/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/home/lan/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/home/lan/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lan/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9","_corruptedFile":"/home/lan/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
 # makefile (from `makefile', line 1)
 MAKEFILE_LIST :=  makefile
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
 LESSOPEN = ||/usr/bin/lesspipe.sh %s
 # environment
 VSCODE_CWD = /home/lan
 # environment
-SSH_CONNECTION = 113.54.194.40 59920 10.0.0.4 22
+SSH_CONNECTION = 202.98.105.174 18854 10.0.0.4 22
 # environment
-PATH = /home/lan/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/lan/.local/bin:/home/lan/bin
+PATH = /home/lan/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/remote-cli:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/lan/.local/bin:/home/lan/bin
 # environment
 XDG_RUNTIME_DIR = /run/user/1001
 # environment
-VSCODE_LOG_STACK = false
+ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver check-symlink
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_PIPE_LOGGING = true
-# environment
 PWD = /home/lan/data/projects/miniGFS
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1001/vscode-ipc-6b7aadb2-df37-4fe3-aa8c-c868a94646e4.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1001/vscode-ipc-9bf7ce4f-8968-4d96-8c1f-19db09fd107a.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -91,7 +85,7 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 5
 # environment
-XDG_SESSION_ID = 213146
+XDG_SESSION_ID = 243936
 # environment
 USER = lan
 # makefile
@@ -109,13 +103,13 @@ MAKEFLAGS = Rrqp
 # environment
 MFLAGS = -Rrqp
 # environment
-SSH_CLIENT = 113.54.194.40 59920 22
+SSH_CLIENT = 202.98.105.174 18854 22
 # environment
 MAIL = /var/spool/mail/lan
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-BROWSER = /home/lan/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/helpers/browser.sh
+BROWSER = /home/lan/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/helpers/browser.sh
 # environment
 VSCODE_HANDLES_SIGPIPE = true
 # default
@@ -125,7 +119,7 @@ PROMPT_COMMAND = history -a; history -a; history -a; history -a;
 # automatic
 <F = $(notdir $<)
 # environment
-TST_HACK_BASH_SESSION_ID = 71701841194039
+TST_HACK_BASH_SESSION_ID = 106538321764744
 # environment
 LC_ALL = C
 # automatic
@@ -140,10 +134,8 @@ HISTSIZE = 3000
 .RECIPEPREFIX := 
 # environment
 LANG = C
-# environment
-VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # variable set hash-table stats:
-# Load=66/1024=6%, Rehash=0, Collisions=6/91=7%
+# Load=62/1024=6%, Rehash=0, Collisions=6/87=7%
 
 # Pattern-specific Variable Values
 
@@ -151,9 +143,9 @@ VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 
 # Directories
 
-# . (device 64769, inode 1573046): 8 files, no impossibilities.
+# . (device 64769, inode 1573046): 9 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -261,13 +253,13 @@ tcp_client:
 
 # No general (`VPATH' variable) search path.
 
-# # of strings in strcache: 0 / lookups = 37 / hits = 37
+# # of strings in strcache: 0 / lookups = 38 / hits = 38
 # # of strcache buffers: 1 (* 8176 B/buffer = 8176 B)
-# strcache used: total = 0 (146) / max = 0 / min = 8176 / avg = 0
-# strcache free: total = 0 (8030) / max = 0 / min = 8176 / avg = 0
+# strcache used: total = 0 (151) / max = 0 / min = 8176 / avg = 0
+# strcache free: total = 0 (8025) / max = 0 / min = 8176 / avg = 0
 
 # strcache hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=1/37=3%
-# Finished Make data base on Thu Jul  7 09:20:39 2022
+# Load=18/8192=0%, Rehash=0, Collisions=1/38=3%
+# Finished Make data base on Sun Jul 17 00:07:03 2022
 
  
