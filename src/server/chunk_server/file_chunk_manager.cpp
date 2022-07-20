@@ -29,6 +29,8 @@ namespace gfs
 
             options.create_if_missing = true;
             leveldb::Status status = leveldb::DB::Open(options, chunk_database_name, &database);
+
+            
         }
 
     }
