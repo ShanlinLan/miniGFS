@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jul 20 21:15:55 2022
+# Make data base, printed on Wed Jul 20 22:50:10 2022
 
 # Variables
 
@@ -31,7 +31,7 @@ CURDIR := /home/lan/data/projects/miniGFS
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/home/lan/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/home/lan/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lan/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"/home/lan/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/home/lan/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/home/lan/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/lan/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a","_corruptedFile":"/home/lan/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
 # makefile (from `makefile', line 1)
@@ -41,9 +41,9 @@ LESSOPEN = ||/usr/bin/lesspipe.sh %s
 # environment
 VSCODE_CWD = /home/lan
 # environment
-SSH_CONNECTION = 113.54.194.40 52098 10.0.0.4 22
+SSH_CONNECTION = 202.98.105.137 15061 10.0.0.4 22
 # environment
-PATH = /home/lan/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/lan/.local/bin:/home/lan/bin
+PATH = /home/lan/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/bin/remote-cli:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/lan/.local/bin:/home/lan/bin
 # environment
 XDG_RUNTIME_DIR = /run/user/1001
 # environment
@@ -55,7 +55,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 PWD = /home/lan/data/projects/miniGFS
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1001/vscode-ipc-63c62fee-10b0-42b2-a28c-846189b4e906.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1001/vscode-ipc-5753a2b2-6f0c-44c1-a128-15cacfdefca3.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -67,7 +67,7 @@ HOME = /home/lan
 # environment
 LOGNAME = lan
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 +F = $(notdir $+)
 # environment
@@ -85,7 +85,7 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 5
 # environment
-XDG_SESSION_ID = 256339
+XDG_SESSION_ID = 256632
 # environment
 USER = lan
 # makefile
@@ -103,13 +103,13 @@ MAKEFLAGS = Rrqp
 # environment
 MFLAGS = -Rrqp
 # environment
-SSH_CLIENT = 113.54.194.40 52098 22
+SSH_CLIENT = 202.98.105.137 15061 22
 # environment
 MAIL = /var/spool/mail/lan
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-BROWSER = /home/lan/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/helpers/browser.sh
+BROWSER = /home/lan/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/bin/helpers/browser.sh
 # environment
 VSCODE_HANDLES_SIGPIPE = true
 # default
@@ -119,7 +119,7 @@ PROMPT_COMMAND = history -a; history -a; history -a; history -a;
 # automatic
 <F = $(notdir $<)
 # environment
-TST_HACK_BASH_SESSION_ID = 104266284398816
+TST_HACK_BASH_SESSION_ID = 134631703189019
 # environment
 LC_ALL = C
 # automatic
@@ -260,6 +260,6 @@ tcp_client:
 
 # strcache hash-table stats:
 # Load=18/8192=0%, Rehash=0, Collisions=1/38=3%
-# Finished Make data base on Wed Jul 20 21:15:55 2022
+# Finished Make data base on Wed Jul 20 22:50:10 2022
 
  

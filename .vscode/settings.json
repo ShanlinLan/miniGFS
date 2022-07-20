@@ -54,7 +54,8 @@
         "map": "cpp",
         "iostream": "cpp",
         "unordered_set": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "cstring": "cpp"
     },
     "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
 }
